@@ -1,0 +1,51 @@
+<div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row bg-title">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <h4 class="page-title margin-0">Invite PSLF</h4> </div>
+                    <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
+                        <ol class="breadcrumb margin-0">
+                            <li><a href="javascript:void(0)">Dashboard</a></li>
+                            <li class="active">Invite PSLF</li>
+                        </ol>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+
+
+
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="white-box box-shade main-part">
+                    <h4 ng-if="successInvite" class="box-title m-b-0 text-theme-dark text-center">{{successMsg}}</h4>
+                        <h3 class="box-title m-b-0 text-theme-dark text-center">Invite User For PSLF</h3>
+                        <small class="main-part text-center font-400">Enter Invitation details</small>
+                        <form class="form-horizontal new-lg-form m-t-10 main-part" id="loginform" ng-submit = "signupDetails()">
+                            <div class="form-group ">
+                                <div class="col-xs-8 col-xs-offset-2">
+                                    <input class="form-control" type="text" ng-model = "first" required="" placeholder="First Name"> </div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-xs-8 col-xs-offset-2">
+                                    <input class="form-control" type="text" ng-model = "last" required="" placeholder="Last Name"> </div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-xs-8 col-xs-offset-2">
+                                    <input class="form-control" type="email" ng-model = "email" required="" placeholder="Email"> </div>
+                            </div>
+                            
+                            <div class="text-center">
+                                <div class="col-xs-6 col-xs-offset-3">
+                                    <button class="btn btn-primary btn-lg btn-block waves-effect waves-light" type="submit">Invite</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+
+                <!-- ============================================================== -->
+            </div>
+            <!-- /.container-fluid -->
+            <footer class="footer text-center font-400"> Copyright © 2018 by Zurick Artificial Intelligence, LLC | Powered by PrestoSolvo </footer>
+</div>

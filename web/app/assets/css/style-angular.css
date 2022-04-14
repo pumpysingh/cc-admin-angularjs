@@ -1,0 +1,108 @@
+
+html
+{
+    height: 100%;
+}
+
+
+body
+{
+    background: #f0f7ff !important;
+    height: 100%;
+}
+
+.arch-btn {
+    bottom: 8px;
+    left: 33px;
+}
+
+.userbtns
+{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    border-bottom: none !important;
+ 
+}
+
+.chat-tble
+{
+    width: 78% !important;
+}
+
+.popbtn
+{
+    font-weight: 500;
+    margin-right: 4px;
+}
+
+.chatH
+{
+    overflow: hidden;
+    width: auto;
+    height: 100%;
+}
+
+.pre-loadbox
+{
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-color: white;
+    
+}
+
+.pre-load
+{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pre-load p
+{
+    text-align: center;
+    font-weight: 500;
+    color: #4e5cad;
+    margin-top: -13px;
+}
+
+.ide
+{
+    background: #ff6363 !important;
+    box-shadow: 1px 1px 1px #ffcfcf !important;
+    color: #fff;
+}
+
+
+.ide h4
+{
+    color: #fff!important;
+}
+
+.mis-numbox
+{
+    float: right;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    font-size: 11px;
+    background-color: #ff6363;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.mis-numbox i
+{
+    
+    font-style: normal;
+}
+.cap
+{
+    text-transform: uppercase;
+}

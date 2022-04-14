@@ -1,0 +1,61 @@
+<section id="wrapper" class="new-login-register">
+      <div class="lg-info-panel">
+              <div class="inner-panel">
+                  <!-- <a href="javascript:void(0)" class="p-20 di"><img src="app/assets/images/logo.png"></a> -->
+                  <a href="javascript:void(0)" class="p-20 di"><b style="color: #fff; font-size: 17px;">Ah-Ha! Admin - Nelnet</b>></a>
+                  <div class="lg-content">
+                      <p class="color-light-gray">Our goal at Education Loan is to provide access to education loan at insight competitive interest rates.</p>
+                  </div>
+              </div>
+      </div>
+      <div class="new-login-box">
+                <div class="white-box">
+                    <h3 class="box-title m-b-0 text-theme-dark text-center">Sign In to Admin</h3>
+                    <small class="main-part text-center font-400">Enter your details below</small>
+                  <form class="form-horizontal new-lg-form" id="loginform" ng-submit="loginDetails()">
+                    
+                    <div class="form-group  m-t-20">
+                      <div class="col-xs-12">
+                        <label>Email Address</label>
+                        <input class="form-control" ng-model="uname" type="Email" required="" placeholder="Username">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-xs-12">
+                        <label>Password</label>
+                        <input class="form-control" ng-model="pwd" type="password" required="" placeholder="Password">
+                      </div>
+                    </div>
+                    <div>
+                        <span ng-if="!firstAttempt">Invalid username or password.</span>
+                        <span ng-if="firstAttempt"></span>
+                    </div>
+                    <div class="form-group text-center m-t-20">
+                      <div class="col-xs-12">
+                        <button class="btn btn-primary btn-lg btn-block btn-rounded text-uppercase waves-effect waves-light" type="submit">Log In</button>
+                      </div>
+                    </div>
+                  </form>
+                  <form class="form-horizontal" id="recoverform" action="https://wrappixel.com/ampleadmin/ampleadmin-html/ampleadmin-horizontal-nav/index.html">
+                    <div class="form-group ">
+                      <div class="col-xs-12">
+                        <h3>Recover Password</h3>
+                        <p class="text-muted">Enter your Email and instructions will be sent to you! </p>
+                      </div>
+                    </div>
+                    <div class="form-group ">
+                      <div class="col-xs-12">
+                        <input class="form-control" type="text" required="" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="form-group text-center m-t-20">
+                      <div class="col-xs-12">
+                        <button class="btn btn-primary btn-lg btn-block text-uppercase waves-effect waves-light" type="submit">Reset</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+      </div>            
+  
+  
+</section>

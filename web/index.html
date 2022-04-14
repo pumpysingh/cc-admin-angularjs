@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="adminApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="16x16" href="app/assets/images/favicon.png">
+    <title>Nelnet - Admin</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="app/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- animation CSS -->
+    <link href="app/assets/css/animate.css" rel="stylesheet">
+    <link href="app/assets/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="app/assets/css/style.css" rel="stylesheet">
+    <link href="app/assets/css/custom.css" rel="stylesheet">
+    <link href="app/assets/css/ng-alertify.css" rel="stylesheet">
+    <link href="app/assets/css/style-angular.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="app/assets/css/daterangepicker.css" />
+
+</head>
+
+<body class="fix-header">
+
+    <!-- ============================================================== -->
+    <!-- Wrapper -->
+    <!-- ============================================================== -->
+
+<div ng-if="loading" class="pre-loadbox">
+    <div class="pre-load">
+    <img  src="app/assets/images/admin-loading.svg" />
+    <p ng-if="$root.signin">Sign in...</p>
+    <p ng-if="$root.signout">Sign out...</p>
+    </div>
+</div>
+    <div id="wrapper">
+    <div ui-view="header" autoscroll="false"></div>
+    <div ui-view="main" autoscroll="false"></div>
+    <!-- jQuery -->
+    <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="app/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="app/assets/js/moment.min.js"></script>
+    <script type="text/javascript" src="app/assets/js/moment-timezone-with-data.js"></script>
+    <script type="text/javascript" src="app/assets/js/daterangepicker.min.js"></script>
+    
+
+    <!--slimscroll JavaScript -->
+    <script src="app/assets/js/jquery.slimscroll.js"></script>
+    
+    <!-- Custom Theme JavaScript -->
+    <script src="app/assets/js/custom.min.js"></script>
+    <script src="app/assets/js/chat.js"></script>
+
+    <script src="app/assets/js/angular.min.js" type="text/javascript"></script>
+    <script src="app/assets/js/angular-ui-router.min.js" type="text/javascript"></script>
+    <!-- <script src="app/assets/js/moment.js" type="text/javascript"></script> -->
+    <script src="app/assets/js/angular-local-storage.js" type="text/javascript"></script>
+  
+
+    <script src="app/app.js" type="text/javascript"></script>
+    <script src="app/admin/chatModule.js" type="text/javascript"></script>
+    <script src="app/admin/loginController.js" type="text/javascript"></script>
+    <script src="app/shared/headerController.js" type="text/javascript"></script>
+    <script src="app/admin/chatController.js" type="text/javascript"></script>
+    <script src="app/shared/apiService.js" type="text/javascript"></script>
+    <script src="app/shared/apiList.js" type="text/javascript"></script>
+    <script src="app/admin/signupController.js" type="text/javascript"></script>
+    <script src="app/admin/reportController.js" type="text/javascript"></script>
+    <script src="app/admin/changePasswordController.js" type="text/javascript"></script>
+    <script src="app/assets/js/ng-alertify.js"></script>
+    <!--pdf Download-->
+    <script src="app/assets/js/pdfmake.min.js"></script>
+    <script src="app/assets/js/vfs_fonts.js"></script>
+
+    <script src="app/assets/js/FileSaver.min.js"></script>
+</body>
+
+</html>

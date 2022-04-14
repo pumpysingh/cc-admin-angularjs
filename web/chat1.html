@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <title>PrestoSolvo- Admin</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- animation CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="fix-header">
+
+    <!-- ============================================================== -->
+    <!-- Wrapper -->
+    <!-- ============================================================== -->
+    <div id="wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <nav class="navbar navbar-default navbar-static-top m-b-0">
+            <div class="navbar-header">
+                <div class="top-left-part">
+                    <!-- Logo -->
+                    <a class="logo float-left" href="chat.html">
+                        <!-- Logo icon image, you can use font-icon also --><b>
+                        <!--This is dark logo icon--><img src="images/logo.png" alt="home" class="dark-logo" /><!--This is light logo icon--><img src="plugins/images/admin-logo-dark.png" alt="home" class="light-logo" />
+                     </b>
+                    </a>
+                </div>
+                <!-- /Logo -->
+                <!-- Search input and Toggle icon -->
+                <!--<ul class="nav navbar-top-links navbar-left">-->
+                    <!--<li><a href="javascript:void(0)" class="open-close waves-effect waves-light visible-xs"><i class="ti-close ti-menu"></i></a></li>-->
+                    <!--<li>-->
+                        <!--<form role="search" class="app-search hidden-sm hidden-xs m-r-10">-->
+                            <!--<input type="text" placeholder="Search..." class="form-control"> <a href="#"><i class="fa fa-search"></i></a> </form>-->
+                    <!--</li>-->
+                <!--</ul>-->
+                <ul class="nav navbar-top-links navbar-right pull-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" href="javascript:void(0)"> <i class="fa fa-bell"></i>
+                            <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                        </a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="javascript:void(0)"> <img src="plugins/images/users/varun.jpg" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">Steave</b><span class="caret"></span> </a>
+                        <ul class="dropdown-menu dropdown-user animated flipInY">
+                            <li>
+                                <div class="dw-user-box">
+                                    <div class="u-img"><img src="images/1.jpg" alt="user" /></div>
+                                    <div class="u-text">
+                                        <h4>Steave Jobs</h4>
+                                        <p class="text-muted">jobs@gmail.com</p><a href="javascript:;" class="btn btn-rounded btn-primary btn-sm">View Profile</a></div>
+                                </div>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="javascript:void(0)"><i class="ti-settings"></i> Account Setting</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-power-off"></i> Logout</a></li>
+                        </ul>
+                        <!-- /.dropdown-user -->
+                    </li>
+                    <!-- /.dropdown -->
+                </ul>
+            </div>
+            <!-- /.navbar-header -->
+            <!-- /.navbar-top-links -->
+            <!-- /.navbar-static-side -->
+        </nav>
+        <!-- End Top Navigation -->
+        <!-- ============================================================== -->
+        <!-- Page Content -->
+        <!-- ============================================================== -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row bg-title">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <h4 class="page-title margin-0">Chat</h4> </div>
+                    <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
+                        <ol class="breadcrumb margin-0">
+                            <li><a href="javascript:void(0)">Dashboard</a></li>
+                            <li class="active">Chat</li>
+                        </ol>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- .chat-row -->
+                <div class="chat-main-box">
+                    <!-- .chat-left-panel -->
+                    <div class="chat-left-aside">
+                        <div class="open-panel"><i class="ti-angle-right"></i></div>
+                        <div class="chat-left-inner">
+                            <!--<div class="form-material">-->
+                                <!--<input class="form-control p-20" type="text" placeholder="Search Contact">-->
+                            <!--</div>-->
+                            <ul class="chatonline style-none ">
+                                <li>
+                                    <a href="javascript:void(0)">
+
+                                        <div class="main-part b-btm-dash">
+                                            <div class="col-md-2" style="padding-right: 0;">
+                                                <div class="id-cir" style=" background-color: #3F51B5;">
+                                                    <span>ID</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-10" style="padding-left: 0;">
+                                                <p class="margin-0 userid" style="margin-top: 3px !important;">#123456789013</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6 marg-t5">
+                                            <p class="margin-0 marg-l5 font-13 color-gray font-400"><i class="fa fa-phone marg-r5"></i> +91 123-1231-123 </p>
+                                        </div>
+                                        <div class="col-md-6 marg-t5">
+                                            <p class="margin-0   font-13 color-gray font-400"><i class="fa fa-calendar marg-r5"></i>  13-09-2018, 3:00 PM</p>
+                                        </div>
+
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="javascript:void(0)">
+
+                                        <div class="main-part b-btm-dash">
+                                            <div class="col-md-2" style="padding-right: 0;">
+                                                <div class="id-cir" style=" background-color: #f96f65;">
+                                                    <span>ID</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-10" style="padding-left: 0;">
+                                                <p class="margin-0 userid" style="margin-top: 3px !important;">#123456789013</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6 marg-t5">
+                                            <p class="margin-0 marg-l5 font-13 color-gray font-400"><i class="fa fa-phone marg-r5"></i> +91 123-1231-123 </p>
+                                        </div>
+                                        <div class="col-md-6 marg-t5">
+                                            <p class="margin-0 font-13 color-gray font-400"><i class="fa fa-calendar marg-r5"></i>  13-09-2018, 3:00 PM</p>
+                                        </div>
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="javascript:void(0)">
+
+                                        <div class="main-part b-btm-dash">
+                                            <div class="col-md-2" style="padding-right: 0;">
+                                                <div class="id-cir" style=" background-color: #607d8b;">
+                                                    <span>ID</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-10" style="padding-left: 0;">
+                                                <p class="margin-0 userid" style="margin-top: 3px !important;">#123456789013</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6 marg-t5">
+                                            <p class="margin-0 marg-l5 font-13 color-gray font-400"><i class="fa fa-phone marg-r5"></i> +91 123-1231-123 </p>
+                                        </div>
+                                        <div class="col-md-6 marg-t5">
+                                            <p class="margin-0  font-13 color-gray font-400"><i class="fa fa-calendar marg-r5"></i>  13-09-2018, 3:00 PM</p>
+                                        </div>
+
+
+                                    </a>
+                                </li>
+
+
+                                <li>
+                                    <a href="javascript:void(0)">
+
+                                        <div class="main-part b-btm-dash">
+                                            <div class="col-md-2" style="padding-right: 0;">
+                                                <div class="id-cir" style=" background-color: #856daf;">
+                                                    <span>ID</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-10" style="padding-left: 0;">
+                                                <p class="margin-0 userid" style="margin-top: 3px !important;">#123456789013</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6 marg-t5">
+                                            <p class="margin-0 marg-l5 font-13 color-gray font-400"><i class="fa fa-phone marg-r5"></i> +91 123-1231-123 </p>
+                                        </div>
+                                        <div class="col-md-6 marg-t5">
+                                            <p class="margin-0 marg-l5  font-13 color-gray font-400"><i class="fa fa-calendar marg-r5"></i>  13-09-2018, 3:00 PM</p>
+                                        </div>
+
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="javascript:void(0)">
+
+                                        <div class="main-part b-btm-dash">
+                                            <div class="col-md-2" style="padding-right: 0;">
+                                                <div class="id-cir" style=" background-color: #856daf;">
+                                                    <span>ID</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-10" style="padding-left: 0;">
+                                                <p class="margin-0 userid" style="margin-top: 3px !important;">#123456789013</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6 marg-t5">
+                                            <p class="margin-0 marg-l5 font-13 color-gray font-400"><i class="fa fa-phone marg-r5"></i> +91 123-1231-123 </p>
+                                        </div>
+                                        <div class="col-md-6 marg-t5">
+                                            <p class="margin-0 marg-l5  font-13 color-gray font-400"><i class="fa fa-calendar marg-r5"></i>  13-09-2018, 3:00 PM</p>
+                                        </div>
+
+
+                                    </a>
+                                </li>
+
+
+
+
+
+                                <li>
+
+                                    <div class="col-md-6">
+
+                                        <a href="javascript:;" class="btn btn-info btn-sm">Previous</a>
+
+                                    </div>
+
+                                    <div class="col-md-6">
+
+                                        <a href="javascript:;" class="btn  btn-primary btn-sm">Next</a>
+                                    </div>
+                                </li>
+
+
+
+                                <!--<li class="p-20"></li>-->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- .chat-left-panel -->
+                    <!-- .chat-right-panel -->
+                    <div class="chat-right-aside">
+                        <div class="chat-main-header main-part">
+                            <div class="p-10 b-b main-part" style="    background-color: #6e707d;">
+                                <h5 class="box-title margin-0 float-left text-white">Chat History | <span class="text-white userid">#123456789013</span></h5>
+
+                                <small class="color-light-gray float-right"><i class="fa fa-calendar marg-r5"></i> 13-09-2018, <span>3:04 PM</span></small>
+                            </div>
+                        </div>
+                        <div class="chat-box main-part">
+                            <ul class="chat-list p-t-30" id="style-4">
+                                <li>
+                                    <div class="chat-body">
+                                        <div class="chat-text">
+                                            <h4>#123456789013</h4>
+                                            <p>Donika Pear</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="odd">
+                                    <div class="chat-body">
+                                        <div class="chat-text">
+                                            <h4 class="light-purple-text">Xander</h4>
+                                            <p> Hi Donika, Please enter your current phone number. </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="chat-body">
+                                        <div class="chat-text">
+                                            <h4>#123456789013</h4>
+                                            <p>Donika Pear</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="odd">
+                                    <div class="chat-body">
+                                        <div class="chat-text">
+                                            <h4 class="light-purple-text">Xander</h4>
+                                            <p> Hi Donika, Please enter your current phone number. </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="chat-body">
+                                        <div class="chat-text">
+                                            <h4>#123456789013</h4>
+                                            <p>Donika Pear</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="odd">
+                                    <div class="chat-body">
+                                        <div class="chat-text">
+                                            <h4 class="light-purple-text">Xander</h4>
+                                            <p> Hi Donika, Please enter your current phone number. </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="chat-body">
+                                        <div class="chat-text">
+                                            <h4>#123456789013</h4>
+                                            <p>Donika Pear</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="odd">
+                                    <div class="chat-body">
+                                        <div class="chat-text">
+                                            <h4 class="light-purple-text">Xander</h4>
+                                            <p> Hi Donika, Please enter your current phone number. </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!--<div class="row send-chat-box">-->
+                                <!--<div class="col-sm-12">-->
+                                    <!--<textarea class="form-control" placeholder="Type your message"></textarea>-->
+                                    <!--<div class="custom-send"><a href="javacript:void(0)" class="cst-icon" data-toggle="tooltip" title="Insert Emojis"><i class="ti-face-smile"></i></a> <a href="javacript:void(0)" class="cst-icon" data-toggle="tooltip" title="File Attachment"><i class="fa fa-paperclip"></i></a>-->
+                                        <!--<button class="btn btn-primary btn-rounded" type="button">Send</button>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        </div>
+                    </div>
+                    <!-- .chat-right-panel -->
+                </div>
+                <!-- /.chat-row -->
+
+                <!-- ============================================================== -->
+            </div>
+            <!-- /.container-fluid -->
+            <footer class="footer text-center"> Copyright © 2018 by Zurick Artificial Intelligence, LLC | Powered by PrestoSolvo </footer>
+        </div>
+        <!-- /#page-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--slimscroll JavaScript -->
+    <script src="js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.min.js"></script>
+    <script src="js/chat.js"></script>
+
+</body>
+
+</html>
